@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Coiny&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Deca:wght@300&family=Lexend:wght@518&family=Noto+Sans+JP:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    font-family:"Roboto", sans-serif;
+}
+body{
+    background-color: rgb(112, 156, 157);
+    background-image: url(../../img/ronflex.jpg);
+    background-attachment: fixed
+}
+/* #header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../img/ronflex.jpg);
+    background-size: cover;
+    background-position: center;
+} */
+/* -----------------navbare----------------- */
+nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(2, 3, 3);
+    padding-bottom: 10px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgb(50, 95, 97);
+}
+nav img{
+    height: 70px;
+    padding-top: 5px;
+}
+#nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav ul{
+    display: flex;
+    gap: 12px;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+nav ul li:first-child{
+    color: rgb(104, 155, 155);
+    font-weight: bold;
+}
+nav h2{
+    font-family: "Roboto", sans-serif;
+}
+nav h2::first-letter{
+    color: rgb(104, 155, 155);
+}
+.header-text{
+    margin-top: 15%;
+    font-size: 30px;
+}
+#header-flex img{
+    height: 500px;
+    margin-top: 15%;
+}
+#header-flex{
+    display: flex;
+    justify-content: space-around;
+}
+/* About */
+#about img{
+    height: 600px;
+}
+#about{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#div-2-about{
+    background-color: rgb(112, 156, 157);
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid rgb(83, 110, 113);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: rgb(255, 244, 216);
+}
+/* mes projets */
+#mes-sites {
+    display: flex;
+    width: 80%;
+    background-color: rgb(131, 192, 192);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 1rem;
+    margin: 1rem auto;
+    text-align: center;
+  }
+  
+#mes-sites iframe {
+    width: 100%;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+.mes-sites{
+    padding-top: 80px;
+}
