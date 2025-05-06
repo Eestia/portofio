@@ -66,16 +66,23 @@ nav h2::first-letter{
 #header-flex{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 80px;
 }
 /* About */
 #about img{
     height: 600px;
 }
 #about{
+    padding-bottom: 80px;
     padding-top: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-image: url(../../img/pkmn.png);
+    background-size: contain;       /* Affiche toute l'image */
+    background-repeat: no-repeat;   /* Ne répète pas l'image */
+    background-position: center; 
+    padding-top: 80px;
 }
 #div-2-about{
     background-color: rgb(112, 156, 157);
@@ -91,7 +98,7 @@ nav h2::first-letter{
 #mes-sites {
     display: flex;
     width: 80%;
-    background-color: rgb(131, 192, 192);
+    background-color: rgb(50, 95, 97);
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     padding: 1rem;
@@ -104,7 +111,55 @@ nav h2::first-letter{
     height: 400px;
     border: 1px solid #ccc;
     border-radius: 8px;
+    color: white;
   }
 .mes-sites{
     padding-top: 80px;
+}
+#Work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+#footer {
+    background-color:rgb(112, 156, 157);
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 80px;
+    background-image: url(../../img/grass.png);
+    background-size: contain;   
+    background-position: center;
+}
+
+.contact-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.contact-item {
+    display: flex;
+    width: 400px;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.contact-text{
+    margin-left: 60px;
+}
+.contact-item img {
+    height: 50px;
+}
+#footer h3{
+    padding-bottom: 20px;
+    color: white;
+    letter-spacing: 4px;
 }
